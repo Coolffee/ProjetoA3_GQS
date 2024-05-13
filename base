@@ -1,0 +1,109 @@
+// Classe modelo para representar um Ticket de TI
+public class Ticket {
+    public int Id { get; set; }
+    public string Titulo { get; set; }
+    public string Descricao { get; set; }
+    public bool Resolvido { get; set; }
+    // Outros atributos do ticket
+    
+    public Ticket() {
+        // Construtor padrão
+    }
+    
+    // Outros métodos relevantes para o ticket
+}
+
+// Classe modelo para representar um Usuário
+public class Usuario {
+    public int Id { get; set; }
+    public string Nome { get; set; }
+    public string Email { get; set; }
+    public string Endereco { get; set; }
+    public string NumeroCelular { get; set; }
+    public string CPF { get; set; }
+    public string CEP { get; set; }
+    // Outros atributos do usuário
+
+    public Usuario() {
+        // Construtor padrão
+    }
+    
+    // Outros métodos relevantes para o usuário
+}
+
+// Interface para o repositório de tickets
+public interface ITicketRepository {
+    Ticket GetById(int id);
+    void Add(Ticket ticket);
+    void Update(Ticket ticket);
+    void Delete(int id);
+    // Outros métodos de acesso a dados de tickets
+}
+
+// Interface para o repositório de usuários
+public interface IUsuarioRepository {
+    Usuario GetById(int id);
+    void Add(Usuario usuario);
+    void Update(Usuario usuario);
+    void Delete(int id);
+    // Outros métodos de acesso a dados de usuários
+}
+
+// Implementação concreta do repositório de tickets
+public class TicketRepository : ITicketRepository {
+    // Implementação dos métodos do repositório
+    public Ticket GetById(int id) {
+        // Lógica para obter um ticket pelo ID
+        return null; // Retornando null apenas para fins de exemplo
+    }
+    
+    public void Add(Ticket ticket) {
+        // Lógica para adicionar um ticket
+    }
+    
+    public void Update(Ticket ticket) {
+        // Lógica para atualizar um ticket
+    }
+    
+    public void Delete(int id) {
+        // Lógica para excluir um ticket
+    }
+    
+    // Implementação de outros métodos de acesso a dados de tickets
+}
+
+// Implementação concreta do repositório de usuários
+public class UsuarioRepository : IUsuarioRepository {
+    // Implementação dos métodos do repositório
+    public Usuario GetById(int id) {
+        // Lógica para obter um usuário pelo ID
+        return null; // Retornando null apenas para fins de exemplo
+    }
+    
+    public void Add(Usuario usuario) {
+        // Lógica para adicionar um usuário
+    }
+    
+    public void Update(Usuario usuario) {
+        // Lógica para atualizar um usuário
+    }
+    
+    public void Delete(int id) {
+        // Lógica para excluir um usuário
+    }
+    
+    // Implementação de outros métodos de acesso a dados de usuários
+}
+
+// Classe de fábrica para criar instâncias de repositórios
+public class RepositoryFactory {
+    public static ITicketRepository CreateTicketRepository() {
+        // Lógica para criar e retornar uma instância de TicketRepository
+        return new TicketRepository();
+    }
+
+    public static IUsuarioRepository CreateUsuarioRepository() {
+        // Lógica para criar e retornar uma instância de UsuarioRepository
+        return new UsuarioRepository();
+    }
+}
