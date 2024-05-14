@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaTicketChamada")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+441e5eab78e80e734c5f83c66b7b6dfc0bea5644")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7ad4eac8919ae4ed4f47ae5977722b79863891f")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaTicketChamada")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaTicketChamada")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
