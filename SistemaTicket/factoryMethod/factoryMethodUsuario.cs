@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SistemaTicketChamada.definicaoDeClasses;
+using SistemaTicketChamada.Sistema.definicaoDeClasses;
+using SistemaTicketChamada.Sistema.interfaceCommand;
 
 
 
-namespace SistemaTicketChamada.factoryMethod
+namespace SistemaTicketChamada.Sistema.factoryMethod
 {
-    internal class factoryMethodUsuario : interfaceCommand.interfaceUsuario
+    internal class factoryMethodUsuario : interfaceUsuario
     {
         public void Add(Usuario usuario)
         {

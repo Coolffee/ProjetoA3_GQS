@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SistemaTicketChamada.definicaoDeClasses;
-using SistemaTicketChamada.interfaceCommand;
+using SistemaTicketChamada.Sistema.definicaoDeClasses;
+using SistemaTicketChamada.Sistema.interfaceCommand;
 
 
-namespace SistemaTicketChamada.factoryMethod
+namespace SistemaTicketChamada.Sistema.factoryMethod
 {
-    internal class IfactoryMethodTicket : interfaceCommand.interfaceTicket
+    internal class IfactoryMethodTicket : interfaceTicket
     {
         List<Ticket> listTicket = new List<Ticket>();//aqui é que vai passar as informações dos tickets
 
@@ -17,7 +17,7 @@ namespace SistemaTicketChamada.factoryMethod
         {
             foreach (Ticket ticket in listTicket)
             {
-             if(listTicket.id == id)
+                if (listTicket.id == id)
                 {
                     return ticket;//Eu acho que está errado, depois verificar a lógica
                 }

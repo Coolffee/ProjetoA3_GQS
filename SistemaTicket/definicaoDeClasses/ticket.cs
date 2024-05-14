@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SistemaTicketChamada.definicaoDeClasses
+namespace SistemaTicketChamada.Sistema.definicaoDeClasses
 {
     internal class Ticket
 

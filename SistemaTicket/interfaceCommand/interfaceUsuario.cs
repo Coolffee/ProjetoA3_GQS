@@ -4,9 +4,9 @@ using System.Linq;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
-using SistemaTicketChamada.definicaoDeClasses;
+using SistemaTicketChamada.Sistema.definicaoDeClasses;
 
-namespace SistemaTicketChamada.interfaceCommand
+namespace SistemaTicketChamada.Sistema.interfaceCommand
 {
     internal interface interfaceUsuario
     {
