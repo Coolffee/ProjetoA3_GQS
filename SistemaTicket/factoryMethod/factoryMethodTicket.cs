@@ -11,16 +11,12 @@ namespace SistemaTicketChamada.Sistema.factoryMethod
 {
     internal class IfactoryMethodTicket : interfaceTicket
     {
-        List<Ticket> listTicket = new List<Ticket>();//aqui é que vai passar as informações dos tickets
 
         Ticket interfaceTicket.GetById(int id)
         {
             foreach (Ticket ticket in listTicket)
             {
-                if (listTicket.id == id)
-                {
-                    return ticket;//Eu acho que está errado, depois verificar a lógica
-                }
+                
             }
 
             throw new NotImplementedException();

@@ -7,27 +7,27 @@ using System.Threading.Tasks;
 
 namespace SistemaTicketChamada.SistemaTicket.cadastroLoginUsuario
 {
-    internal class DBconnect//aqui seria como se fosse o singleton onde posso acessar em qualquer lugar
+    internal class BDconnect//aqui seria como se fosse o singleton onde posso acessar em qualquer lugar
     {//qualquer coisa é faço formato de fila dentro armazeno seja o endereço ou um hashset 
-        private static DBconnect instance;
+        private static BDconnect instance;
         private List<Usuario> cadastrousuario;//aqui é como se fosse o banco de dados que tem os cadastros do cliente
 
-        private DBconnect()
+        private BDconnect()
         {
             cadastrousuario = new List<Usuario>();
         }
 
-        public static DBconnect Instance
+        public static BDconnect Instance
         {
             get
             {
                 if(instance== null){
-                    instance = new DBconnect();
+                    instance = new BDconnect();
                 }
                 return instance;
             }
         }
-
+        /*------------------------------------------------*/
         public void adicionarUsuario(Usuario usuario)
         {
             cadastrousuario.Add(usuario);
@@ -40,6 +40,8 @@ namespace SistemaTicketChamada.SistemaTicket.cadastroLoginUsuario
                 return cadastrousuario;
             }
         }
+        /*----------------------------------------------*/
+
 
         //aqui é que vai passar as informações dos tickets, id o texto
 

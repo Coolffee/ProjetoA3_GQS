@@ -16,6 +16,7 @@ namespace SistemaTicketChamada.Sistema.definicaoDeClasses
         private object cpf;
         private object cep;
 
+        private static int nextID = 1;// testar se funciona 
         public int Id { get; set; }
         public string Nome { get; set; }
         public string Email { get; set; }
@@ -26,7 +27,7 @@ namespace SistemaTicketChamada.Sistema.definicaoDeClasses
 
         public Usuario(int id, string nome, string email, string endereco, string numeroCelular, string cPF, string cEP)
         {
-            Id = id;
+            Id = nextID++;
             Nome = nome;
             Email = email;
             Endereco = endereco;
