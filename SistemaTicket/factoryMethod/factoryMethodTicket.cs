@@ -11,37 +11,24 @@ namespace SistemaTicketChamada.Sistema.factoryMethod
 {
     internal class IfactoryMethodTicket : interfaceTicket
     {
-
-        Ticket interfaceTicket.GetById(int id)
-        {
-            foreach (Ticket ticket in listTicket)
-            {
-                
-            }
-
-            throw new NotImplementedException();
-        }
         public void Add(Ticket ticket)
         {
-            listTicket.Add(ticket);
-
             throw new NotImplementedException();
         }
 
         public void Delete(int id)
         {
-            listTicket.Remove(id);
+            throw new NotImplementedException();
+        }
 
+        public Ticket GetById(int id)
+        {
             throw new NotImplementedException();
         }
 
         public void Update(Ticket ticket)
         {
-
-
             throw new NotImplementedException();
         }
-
-
     }
 }

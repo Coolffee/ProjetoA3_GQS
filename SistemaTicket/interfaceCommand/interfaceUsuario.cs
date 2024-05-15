@@ -11,7 +11,7 @@ namespace SistemaTicketChamada.Sistema.interfaceCommand
     internal interface interfaceUsuario
     {
         Usuario GetById(int id);
-        void Add(Usuario usuario);
+        void Add(string nomeInput, string emailInput, string enderecoInput, string celularInput, string cpfInput, string cepInput);
         void Update(Usuario usuario);
         void Delete(int id);
     }
