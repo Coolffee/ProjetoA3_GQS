@@ -22,3 +22,8 @@ Se mostrar o erro, exemplo:<div> error: open(".vs/AED/v16/Server/sqlite3/db.lock
 
 git branch -M pedroevatest
 <div>Um adendo que se for para mudar todo o código, crie uma nova branch especifico para você, evitar possíveis problemas futuros de perder o que já está funcionando</div>
+
+![comoCriarumaBRanchNovaPessoalNoProjeto](https://github.com/Coolffee/ProjetoA3_GQS/assets/69175898/e9a9f92a-370f-44bc-a317-9abce79aee60)
+
+## A parte do Source é referente a qual pasta quer se basea para pode puxar os arquivos referente.
+
