@@ -1,0 +1,19 @@
+Sobre os padrões de projeto usados:
+Factory method:
+	O motivo do uso:
+	O factory é a criação de novas funcionalidades para a superclasse (interfaceCommand.interfaceTicket)
+apartir das subclasses (IfactoryMethodTicket) que no caso seria no exemplo do projeto. Que pode ser acrescentado ainda mais se possível.
+	fonte: https://www.geeksforgeeks.org/factory-method-for-designing-pattern/#what-is-the-factory-method-design-patterns
+
+Command:
+	O motivo do uso:
+	O command é que vai pedir a a realização de uma ação/função especificar quando chamada, por exemplo:
+	https://medium.com/@neerukapoor/command-design-pattern-in-java-7d06dfdd31 -- deu exemplo do command sendo chamada depois de definir o que
+queria que fosse desenhado
+	outra fonte: https://medium.com/swlh/command-pattern-what-it-is-and-how-to-use-it-7ccbc810266d
+
+Observer:
+	O motivo do uso:
+	Ele pode ser útil para notificações se o problema foi solucionado - push de notificação.
+
+fonte se basear no sistema https://deskmanager.com.br/blog/sistema-de-tickets/ do que precisa
