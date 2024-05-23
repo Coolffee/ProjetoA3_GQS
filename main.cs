@@ -1,6 +1,4 @@
-﻿using SistemaTicketChamada.Sistema.definicaoDeClasses;
-using SistemaTicketChamada.Sistema.interfaceCommand;
-using SistemaTicketChamada.SistemaTicket.cadastroLoginUsuario;
+﻿using SistemaTicketChamada.SistemaTicket.cadastroLoginUsuario;
 
 namespace SistemaTicketChamada.Sistema.factoryMethod.factoryMethodUsuario
 {
@@ -19,6 +17,8 @@ namespace SistemaTicketChamada.Sistema.factoryMethod.factoryMethodUsuario
             switch (choice)
             {
                 case 1:
+                    
+
                    
                     break;
                 case 2:

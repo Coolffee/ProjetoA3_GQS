@@ -1,6 +1,9 @@
 ﻿using System;
-//Using Factory method
-public class Cliente :
+
+public class Class1
 {
-	
+	public Class1()
+	{
+
+	}
 }
